@@ -27,17 +27,17 @@
 // }
 
 
-
 fn main(){
-    'outer:loop{
-        println!("entered the outer loop");
-        
-        'inner:loop{
-            println!("entered the inner loop");
+    let mut counter = 0;
+    let result = loop{
+        counter += 1;
 
-            break 'outer;
+        if counter == 10{
+            break counter *2;
         }
-        println!("this point will never be reached");
-    }
-    println!("exited from the outer loop");
+    };
+    assert_eq!(result, 20);
 }
+
+
+
