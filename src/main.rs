@@ -71,21 +71,32 @@
 //function
 
 
+// fn main() {
+//     println!("starts first");
+
+//     print_hello();
+
+//     let x = 10;
+//     let result = square(x);
+
+//     println!("square = {}", result);
+// }
+
+// fn print_hello() {
+//     println!("hello");
+// }
+
+// fn square(x: i32) -> i32 {
+//     x * x
+// }
+
+
+
+fn add(a: i32, b: i32) -> i32 {
+    a + b
+}
+
 fn main() {
-    println!("starts first");
-
-    print_hello();
-
-    let x = 10;
-    let result = square(x);
-
-    println!("square = {}", result);
-}
-
-fn print_hello() {
-    println!("hello");
-}
-
-fn square(x: i32) -> i32 {
-    x * x
+    let result = add(5, 3);
+    println!("Sum = {}", result);
 }
