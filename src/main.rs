@@ -40,11 +40,19 @@
 // }
 
 
+//while loop
+// fn main() {
+//     let mut i = 0;
+//     while i < 10 {
+//         println!("hello");
+//         i += 1;
+//     }
+// }
 
-fn main() {
-    let mut i = 0;
-    while i < 10 {
-        println!("hello");
-        i += 1;
+
+
+fn main(){
+    for i in 1..6{
+        println!("{}",i);
     }
 }
