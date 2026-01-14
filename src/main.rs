@@ -51,8 +51,18 @@
 
 
 
+// fn main(){
+//     for i in 1..6{
+//         println!("{}",i);
+//     }
+// }
+
+
+//for loop over arrays
+
 fn main(){
-    for i in 1..6{
-        println!("{}",i);
+    let arr =[10,20,30];
+    for x in arr{
+        println!("{}",x);
     }
 }
