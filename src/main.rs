@@ -71,10 +71,21 @@
 //function
 
 
-fn main(){
+fn main() {
+    println!("starts first");
+
     print_hello();
+
+    let x = 10;
+    let result = square(x);
+
+    println!("square = {}", result);
 }
 
-fn print_hello(){
+fn print_hello() {
     println!("hello");
+}
+
+fn square(x: i32) -> i32 {
+    x * x
 }
