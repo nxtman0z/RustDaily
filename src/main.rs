@@ -60,9 +60,21 @@
 
 //for loop over arrays
 
+// fn main(){
+//     let arr =[10,20,30];
+//     for x in arr{
+//         println!("{}",x);
+//     }
+// }
+
+
+//function
+
+
 fn main(){
-    let arr =[10,20,30];
-    for x in arr{
-        println!("{}",x);
-    }
+    print_hello();
+}
+
+fn print_hello(){
+    println!("hello");
 }
